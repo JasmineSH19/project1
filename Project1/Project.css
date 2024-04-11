@@ -1,0 +1,83 @@
+/* Resetting default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Styling the header */
+header {
+    background-color: #ff7b9c; /* Pink */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the navigation */
+nav {
+    background-color: #ffa6c9; /* Light pink */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Dark gray */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff7b9c; /* Pink */
+}
+
+/* Styling the main content area */
+main {
+    padding: 20px;
+}
+
+/* Styling individual sections */
+section {
+    margin-bottom: 40px;
+}
+
+/* Styling headings */
+h1, h2, h3 {
+    color: #333; /* Dark gray */
+}
+
+/* Styling paragraphs */
+p {
+    color: #666; /* Medium gray */
+    line-height: 1.6;
+}
+
+/* Styling links */
+a {
+    color: #ff7b9c; /* Pink */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff4785; /* Darker pink on hover */
+}
+
+/* Styling the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
